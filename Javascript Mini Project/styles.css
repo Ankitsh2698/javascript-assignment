@@ -1,0 +1,154 @@
+html,
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    background-image: url('ZDRqUzv - Imgur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* z-index: -2; */
+}
+.container {
+
+    text-align: center;
+}
+
+p {
+    color: white;
+   font-family: 'Lora',
+   serif;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    padding: 10px;
+    padding-right:30px;
+}
+
+p :hover {
+    text-decoration: none;
+}
+
+#gen {
+    outline: none;
+    /* padding-top: 5px; */
+    text-decoration: none;
+    opacity: 0.6;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 50px;
+    width: 120px;
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+#gen:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+}
+
+#gen a {
+    text-decoration: none;
+}
+
+.con2{
+
+    margin-top: 80px;
+}
+
+.todolist{
+    margin-left: 8.5px;
+    float: left;
+    text-align: center;
+    height: 50%;
+    width: 45%;
+    background-color:#eee;
+    border:solid black;
+}
+.stopwatch{
+    margin-right: 20px;
+    text-align: center;
+    float: right;
+       height: 50%;
+       width: 45%;
+       background-color:white;
+       border:solid black;
+
+}
+
+h1 {
+  font-family: 'Montserrat',
+  sans-serif;
+    text-decoration: none;
+}
+
+h2{
+font-size: xx-large;
+font-style: oblique;
+text-decoration-color: bisque;
+color:yellowgreen;
+text-align: center;
+}
+
+
+/* stopwatch and ToDo*/
+
+div#timer-stat {
+    margin-bottom: 20px;
+  }
+  div#timer-stat h2 {
+    padding: 10px;
+    color: aqua;
+    margin-bottom: 10px;
+  }
+  input {
+    min-width: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+  }
+  
+  button {
+    border: 0px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  button#startBtn {
+    background-color: #00a03e;
+    padding: 10px;
+    font-size: 10px;
+    color: #ffffff;
+  }
+  
+  button#stopBtn {
+    background-color: #f1404b;
+    padding: 10px;
+    font-size: 10px;
+    color: #ffffff;
+    display: none;
+  }
+  
+  button#resetBtn {
+    background-color: #e6e6e6;
+    padding: 10px;
+    font-size: 17px;
+    color: #8e8e8e;
+  }
+
