@@ -1,0 +1,32 @@
+<html>
+    <title>LetsUpgrade: JS</title>
+        <body style="text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: white;background-position: -130px 50px; background-image: url(https://miro.medium.com/max/700/1*dt92pFaY3Py6PB718DOdNQ.gif);">
+            <h1><b>Javascript Essentials : Printing Contents of Current Window</b></h1>
+            
+                <script type="text/javascript">
+                
+                    var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];     //array of days in week
+                    var d=new Date();                                                                      
+                    day=days[d.getDay()];                                                                  //return numbers from 0 to 7 as Sun to Sat
+                    hour=d.getHours() > 12? d.getHours() - 12 + "PM": d.getHours() + "AM";
+                    minutes=d.getMinutes()<10? "0" + d.getMinutes(): d.getMinutes() + "";
+                    seconds=d.getSeconds()<10? "0" + d.getSeconds(): d.getSeconds() + "";
+                    time=hour.bold() + " : " + minutes.bold() + " : " + seconds.bold();
+                    document.write("<b>Today is : </b>"+day.bold()); 
+                    document.write("<b><br>Current Time is : </b>"+time);
+
+                </script>
+                <p>
+                    <br><h3><b></b>Hello Folks, Here we will demonstrate how to print contents to current Window</h3></b>
+                     We have used the <b style="color:crimson;"> window.print() </b> over here to print the entire contents of the Screen<br>
+                    <br><h4>Do Watch the source Code</h4>
+                
+                </p>
+                <button style="background-color: crimson;color: white;" type="button" name="button" onclick="window.print()">Print Contents</button>
+                <footer style="padding-bottom: 10px;">
+                    <p style="padding-top: 240px;">
+                        @Shrirang Diwakar : Ethical Hacker | Penetration Tester | Developer | Learner
+                    </p>
+                </footer>
+        </body>
+</html>
